@@ -1,0 +1,27 @@
+package br.com.residencia.poo.exercicios;
+
+import java.util.Scanner;
+
+public class DinamicaErros {
+
+	String nome;
+	int idade;
+
+	public static void main(String[] args) {
+			Scanner tantoFaz = new Scanner(System.in);
+			String nome;
+			Double idade;
+			
+			System.out.println("Qual é o seu nome?");
+			nome = tantoFaz.nextLine();
+			
+			System.out.println("\nQual é a sua idade?");
+			idade = tantofaz.nextDouble();
+			
+			System.out.println("Seu nome é "+ idade+ " e sua idade é "+ nome + "!");
+			
+			ler.close();
+
+		}
+
+}

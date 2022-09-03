@@ -1,0 +1,51 @@
+package br.com.residencia.poo.aula1;
+
+import java.util.Scanner;
+
+public class TerceiroExercicio {
+
+	public static void main(String[] args) {
+		Scanner texto = new Scanner(System.in);
+		String str;
+		
+		System.out.println("Digite seu nome: ");
+		str=texto.nextLine();
+		System.out.println("Digite sua disciplina: ");
+		str=texto.nextLine();
+		System.out.println("Digite sua primeira nota: \n");
+		str=texto.nextLine();
+		System.out.println("Digite sua segunda nota: \n");
+		str=texto.nextLine();
+		System.out.println("Digite sua terceira nota: \n");
+		str=texto.nextLine();
+		
+		para(int cont=1, cont<=3, cont++){
+			System.out.println("Insira a nota", cont, ": ");
+			str=texto.nextLine();
+			totalNotas += nota
+		}
+		
+		int cont=1
+		enquanto (cont<=3){
+			System.out.println("Insira a nota", cont, ": ");
+			str=texto.nextLine();
+			totalNotas += nota
+			cont++
+		}
+		int cont=1
+		faca{
+			System.out.println("Insira a nota", cont, ": ");
+			str=texto.nextLine();
+			totalNotas += nota
+			cont++
+		}
+		enquanto (cont<=3)
+		media = totalNotas/3
+		System.out.println("\nOlá, ", name, "\n");
+		System.out.println("Na disciplina ", disciplina, " a média é ", media);
+		}
+		
+		texto.close();
+	}
+
+}

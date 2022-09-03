@@ -1,0 +1,15 @@
+package br.com.residencia.poo.aula1;
+
+public class SegundoExercicio {
+
+	public static void main(String[] args) {
+		System.out.println("Qual é o seu nome?");
+		leia(name)
+		System.out.println("\nQual é a sua idade?");
+		leia (years)
+		limpa()
+		System.out.println("Seu nome é", name, "e sua idade é", years);
+
+	}
+
+}

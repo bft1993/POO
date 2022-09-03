@@ -1,0 +1,15 @@
+package br.com.poo.sistemabancario.principal;
+
+import br.com.poo.sistemabancario.contas.Conta;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Conta minhaConta = new Conta ();
+		
+		
+
+	}
+
+}

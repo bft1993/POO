@@ -1,0 +1,9 @@
+package br.com.poo.sistemabancario.contas;
+
+public class Conta {
+	
+	int numero;
+	String titular;
+	double saldo;
+
+}

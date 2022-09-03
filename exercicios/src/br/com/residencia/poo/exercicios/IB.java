@@ -1,0 +1,11 @@
+package br.com.residencia.poo.exercicios;
+
+public class IB {
+
+	public static void main(String[] args) {
+
+		System.out
+				.println("O resultado da expressão é: " + (2 + 7 * (14 - 21) + 28 * 3 * 42 + 740 - (156 + 4 + 40) * 9));
+	}
+
+}

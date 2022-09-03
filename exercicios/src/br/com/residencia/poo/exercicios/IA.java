@@ -1,0 +1,11 @@
+package br.com.residencia.poo.exercicios;
+
+public class IA {
+
+	public static void main(String[] args) {
+
+		System.out.println("O resultado da expressão é: " + (2 + 3 - 5 * 8 - 4 + 354 - 521 + 7 * 66));
+
+	}
+
+}

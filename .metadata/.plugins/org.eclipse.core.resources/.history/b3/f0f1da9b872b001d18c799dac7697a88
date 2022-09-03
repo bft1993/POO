@@ -1,0 +1,13 @@
+package br.com.poo.sistemabancario.contas;
+
+public class Conta {
+	// Declaracao de variaveis
+	public int numero;
+	public String titular;
+	public double saldo;
+
+}
+//public -> publico
+// protected -> protegido
+// default -> padrao
+// private -> privado
