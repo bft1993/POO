@@ -15,13 +15,21 @@ public class G {
 		System.out.println("Digite o segundo número: ");
 		numero2 = ler.nextInt();
 
-		System.out.println("Soma: " + (numero1 + numero2));
+		while (numero1 > 0 && numero2 > 0) {
 
-		System.out.println("Subtração: " + (numero1 - numero2));
+			System.out.println("Soma: " + (numero1 + numero2));
 
-		System.out.println("Multiplicação: " + (numero1 * numero2));
+			System.out.println("Subtração: " + (numero1 - numero2));
 
-		System.out.println("Divisão: " + (numero1 / numero2));
+			System.out.println("Multiplicação: " + (numero1 * numero2));
+
+			System.out.println("Divisão: " + (numero1 / numero2));
+
+			break;
+		}
+		if (numero1 <= 0 && numero2 <= 0) {
+			System.out.println("VALOR INVÁLIDO!");
+		}
 
 		ler.close();
 

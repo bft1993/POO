@@ -6,9 +6,10 @@ public class Conta {
 
 	public int numero;
 	public String titular;
-	public double saldo;
+	private double saldo;
 
 	public boolean sacar(double valor) {
+		
 		if (this.saldo < valor) {
 			System.out.println("Saldo insuficiente");
 			return false;
@@ -38,7 +39,49 @@ public class Conta {
 			this.sacar(valor);
 			destino.depositar(valor);
 		}
+	
+		
+		
 	}
+	
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public Conta() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Conta(int numero, String titular, double saldo) {
+		super();
+		this.numero = numero;
+		this.titular = titular;
+		this.saldo = saldo;
+	}
+	
+	  
+//	public String brenda(String x) {
+//		System.out.println(this.titular+" "+x);
+//		return "Brenda Folly";
+//	}
 
 	/*
 	 * Scanner sc = new Scanner(System.in);

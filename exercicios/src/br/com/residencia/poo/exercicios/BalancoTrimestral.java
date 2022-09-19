@@ -7,10 +7,11 @@ public class BalancoTrimestral {
 		int gastosJaneiro = 15000;
 		int gastosFevereiro = 23000;
 		int gastosMarco = 17000;
+		
 		int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
-
+		
 		System.out.println("O gasto total do trimestre foi de: R$ " + gastosTrimestre);
-
+		
 	}
 
 }
